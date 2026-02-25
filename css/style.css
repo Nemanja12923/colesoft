@@ -225,17 +225,17 @@ header{
 
  
   #text-pocetna-fotografija {
-    width: 92%;
+    width: 96%;
     left: 50%;
     top: auto;
-    bottom: 18px;
+    bottom: 20px;
     transform: translateX(-50%);
     text-align: left;
     z-index: 5;
   }
 
   #text-pocetna {
-    padding: 18px 18px;
+    padding: 26px;
     background-color: rgba(14, 14, 16, 0.92);
     border: 1px solid rgba(252, 168, 44, 0.25);
     border-radius: 10px;
