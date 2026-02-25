@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Informaciona rešenja</title>
+  <link>https://nemanja12923.github.io/cole-soft/index.html"</link>
+  <description>Mi nudimo rešenje za vaše sisteme</description>
+  <item>
+    <title>Saznajte o nama.</title>
+    <link>https://nemanja12923.github.io/cole-soft/o-nama.html</link>
+    <description>Saznajte o nama.</description>
+  </item>
+  <item>
+    <title>Naše delatnosti poslovanja</title>
+    <link>https://nemanja12923.github.io/cole-soft/delatnosti.html</link>
+    <description>Naše delatnosti poslovanja</description>
+  </item>
+  <item>
+    <title>Saznajte o autoru</title>
+    <link>https://nemanja12923.github.io/cole-soft/o-autoru.html</link>
+    <description>Saznajte o autoru</description>
+  </item>
+</channel>
+
+</rss> 

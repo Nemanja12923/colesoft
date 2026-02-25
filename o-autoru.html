@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cole-soft doo</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<meta name="description" content="Izrada i projektovanje informacionih sistema"/>
+	<meta name="keywords" content="kruševac, video nadzor, mreže, programi, programiranje, web dizajn"/>
+	<meta name="author" content="Nemanja Ćoćić 129/23"/>
+	<link rel="shortcut icon" href="img/logo.png.png" type="image/x-icon"/>
+	<script src="https://kit.fontawesome.com/a9822c877d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<header>
+	<div id="logo"><a href="index.html" class="meni"><h1>Ćole-soft</a></h1></div>
+		<nav id="navigacija"></nav>
+</header>
+
+
+<main>
+  <div class="medjublok" >
+			<div class="drzac">
+				<div class="blok">
+					<div class="blok-slika" style="padding-top: 50px;">
+						<img src="img/moja.jpg" id="moja" alt="Autor" width="25200px" height="252px"/>
+					</div>
+				</div>
+				<div class="blok">
+					 <h3>O autoru</h3>
+        <p>Zovem se Nemanja Ćoćić, imam 22 godine i rođen sam u Kruševcu, gde sam završio gimnaziju.</p>
+        <p>Studiram ICT, smer internet tehnologije.</p>
+        <p><strong>Broj indeksa:</strong> 129/23</p>
+                
+				</div>
+                
+			</div>
+		</div>
+
+</main>
+
+
+
+<footer>
+  <div id="futer">
+
+    <div class="blok-futer" id="blok-forma">
+      <div id="kontakt-forma">
+        <h3>Kontaktirajte nas</h3>
+
+        <form id="kontaktForma" action="#" method="GET" novalidate>
+
+          <label for="tbImePrezime">Ime i prezime:</label>
+          <input type="text" id="tbImePrezime" placeholder="Vaše ime i prezime">
+          <p class="greska">Unesite ime i prezime (npr. Nemanja Ćoćić).</p>
+
+          <label for="tbEmail">Email:</label>
+          <input type="text" id="tbEmail" placeholder="primer@email.com">
+          <p class="greska">Unesite ispravan email (npr. pera125@gmail.com).</p>
+
+          <div class="form-grupa">
+            <label>Pol:</label>
+
+            <div class="radio-red">
+              <div class="radio-item">
+                <input type="radio" name="rbPol" value="M" id="polM">
+                <label for="polM">Muški</label>
+              </div>
+
+              <div class="radio-item">
+                <input type="radio" name="rbPol" value="Z" id="polZ">
+                <label for="polZ">Ženski</label>
+              </div>
+            </div>
+
+            <p class="greska">Morate izabrati pol.</p>
+          </div>
+
+          <div class="form-grupa">
+            <label for="ddlGrad">Grad:</label>
+            <select id="ddlGrad">
+              <option value="0">Izaberite</option>
+              <option value="BG">Beograd</option>
+              <option value="NI">Niš</option>
+              <option value="KG">Kragujevac</option>
+              <option value="KS">Kruševac</option>
+              <option value="SU">Subotica</option>
+              <option value="CA">Čačak</option>
+            </select>
+            <p class="greska">Morate izabrati grad.</p>
+          </div>
+
+          <label for="tbTelefon">Telefon:</label>
+          <input type="text" id="tbTelefon" placeholder="+381 60 1234567">
+          <p class="greska">Telefon: npr. +381601234567 ili 0601234567.</p>
+
+          <label for="taPoruka">Poruka:</label>
+          <textarea id="taPoruka" placeholder="Vaša poruka"></textarea>
+          <p class="greska">Poruka mora imati bar 10 karaktera.</p>
+
+          <input type="submit" id="btnPosalji" value="Pošalji">
+        </form>
+
+        <p id="rezultat"></p>
+      </div>
+    </div>
+
+    <div class="blok-futer" id="blok-kontakt">
+      <div class="kontakt-row">
+        <div class="kontakt-info">
+          <h3>Kontakt:</h3>
+          <p><i class="fas fa-phone"></i>&nbsp;&nbsp;Telefon: 037 450380</p>
+          <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;E-mail: colesoft.net&#64;gmail&#46;com</p>
+          <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Adresa: Vidovdanska 37, 370000 Kruševac</p>
+        </div>
+
+        <div class="kontakt-ikonice">
+          <h3>Mreže:</h3>
+          <div class="ikonice">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+    <script src="js/main.js"></script>
+</body>
